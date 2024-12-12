@@ -51,9 +51,21 @@ This implementation highlights the intersection of **art and technology**, combi
 
 ## **Implementation Steps**
 
+### **Method 1**
+
 1. **Hardware Assembly**: Set up the NodeMCU and LED strip with proper wiring and power supply.
 2. **Firmware Installation**: Flash WLED onto the NodeMCU and configure Wi-Fi settings.
 3. **Code Execution**: Run the Python script, configure parameters, and enjoy the dynamic light show.
+
+### **Method 2**
+
+1. **Install LEDFx**: Refer to the LEDFx Documentation for detailed installation guides.
+2. **Configure Audio Input**: Use Voicemeeter to route system audio or microphone to LEDFx.
+3. **Connect LEDFx to WLED**: Launch LEDFx and go to the settings page.
+4. **Add a new WLED device**: Enter the IP address of NodeMCU running WLED.Save the configuration.
+5. **Select a Visualization**: In LEDFx, choose an audio visualization effect (e.g., spectrum analyzer, wave, or pulse). Adjust parameters for brightness, speed, and intensity as needed.
+6. **Test the Setup**: Play any audio source (e.g., Spotify, YouTube) and enjoy the real-time visual effects on LED strip synchronized to the audio.
+
 
 ## **References**
 
