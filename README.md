@@ -62,7 +62,7 @@ This implementation highlights the intersection of **art and technology**, combi
 1. **Install LEDFx**: Refer to the LEDFx Documentation for detailed installation guides.
 2. **Configure Audio Input**: Use Voicemeeter to route system audio or microphone to LEDFx.
 3. **Connect LEDFx to WLED**: Launch LEDFx and go to the settings page.
-4. **Add a new WLED device**: Enter the IP address of NodeMCU running WLED.Save the configuration.
+4. **Add a new WLED device**: Enter the IP address of NodeMCU running WLED. Save the configuration.
 5. **Select a Visualization**: In LEDFx, choose an audio visualization effect (e.g., spectrum analyzer, wave, or pulse). Adjust parameters for brightness, speed, and intensity as needed.
 6. **Test the Setup**: Play any audio source (e.g., Spotify, YouTube) and enjoy the real-time visual effects on LED strip synchronized to the audio.
 
